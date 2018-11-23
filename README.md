@@ -1,7 +1,5 @@
 # Expression Pack
-> A collection of chinese memes / reaction images
-
-To expand the collection simply place more jpg files in the root of the repository and run `process.py`. The order/number of a specific meme is not guaranteed.
+> A collection of chinese memes / reaction images (Biao Qing [表情])
 
 ## Access this as an "API"
 
@@ -9,5 +7,9 @@ Query /meta on the GitHub pages hosted instance to get the number of images. You
 
 ## Todo
 
-- Resize all images to the same size for easier use as a data source for e.g. random profile pictures
-- Collect more images
+- A more interactive API with more information about images (this will require recrating/-scraping most data however)
+- Scrape pngs and convert them to jpg
+
+## Data source
+
+Up to id 127 (at current times) all images are collected by hand from tons of different sites, mostly by using baidu with different search terms. Most of the images however were scraped from fabiaoqing.com using the script in this repository.
